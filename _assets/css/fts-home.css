@@ -1,0 +1,42 @@
+.fts-home__header{
+    width: 100%; height: 100vh;
+}
+
+.fts-home__header .mdc-layout-grid, 
+.fts-home__header .mdc-layout-grid__inner{height: 100%}
+
+.fts-home__header--bg{
+    width: 100%; height: 100vh; background-size: cover;
+}
+
+.fts-home__header--bg-industria{background-image: url(../img/remow_fts-home__header--bgIndustria-4096x2160.jpg);}
+
+.fts-home__header--bg-aviacao{background-image: url(../img/remow_fts-home__header--bgAviacao-4096x2160.jpg);}
+
+.fts-home__header--gradient-left{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.fts-home__header--gradient-right{
+    background-image: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.fts-home__header--content-left{text-align: left}
+.fts-home__header--content-right{text-align: right}
+
+.fts-home__header .mdc-button--outlined{color: white; border-color: white}
+
+.fts-sticky {
+    position: fixed;
+    top: 0;
+    height: 64px;
+}
+
+.fts-sticky + .content {
+  padding-top: calc(100% - 64px);
+}
