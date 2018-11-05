@@ -9,12 +9,15 @@ $(document).ready(function(){
     
     window.onscroll = function() {stickyBar()};
     var header = document.getElementById("fts-menu");
+    var logo = document.getElementById("fts-logo");
     var sticky = header.offsetTop;
     function stickyBar() {
         if (window.pageYOffset > sticky) {
             header.classList.add("fts-sticky");
+            logo.classList.add("fts-logo--position");
         } else {
             header.classList.remove("fts-sticky");
+            logo.classList.remove("fts-logo--position");
         }
     }
 });

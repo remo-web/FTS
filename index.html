@@ -52,33 +52,46 @@
     </head>
     <body class="mdc-typography">
         
+        <div class="fts-logo mdc-elevation--z4"
+             id="fts-logo">
+            <img src="_assets/img/remo_fts-logo.svg">
+            <div class="fts-logo--links">
+                <button aria-label="Atalho Contato"
+                        class="mdc-fab mdc-fab--mini">
+                    <i class="mdc-fab__icon mdc-theme--text-secondary-on-light fas fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+        
         <header class="mdc-top-app-bar mdc-top-app-bar--fixed"
                 id="fts-menu">
             <div class="mdc-top-app-bar__row">
                 <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-center"
                          role="toolbar">
-                    <a aria-label="Download"
-                       alt="Download"
-                       class="mdc-button mdc-typography--button"
-                       href="#">
-                        SEGMENTOS
-                    </a>
-                </section>
-                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-center"
-                         role="toolbar">
                     <a aria-label="Empresa"
                        alt="Empresa"
-                       class="mdc-button mdc-typography--button"
+                       class="mdc-button mdc-typography--button mdc-theme--text-primary-on-light"
                        href="#">
                         A EMPRESA
                     </a>
                 </section>
                 <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-center"
                          role="toolbar">
+                    <a aria-label="Segmentos"
+                       alt="Segmentos"
+                       class="mdc-button mdc-typography--button mdc-theme--text-primary-on-light"
+                       href="#">
+                        SEGMENTOS
+                    </a>
+                </section>
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-center"
+                         role="toolbar">
                     <a aria-label="Catalogo"
                        alt="Catalogo"
-                       class="mdc-button mdc-typography--button"
+                       class="mdc-button mdc-typography--button mdc-theme--text-primary-on-light"
                        href="#">
+                        <i aria-hidden="true"
+                           class="mdc-button__icon mdc-theme--text-hint-on-light fas fa-download"></i>
                         CATÁLOGO
                     </a>
                 </section>
@@ -86,7 +99,7 @@
                          role="toolbar">
                     <a aria-label="Contato"
                        alt="Contato"
-                       class="mdc-button mdc-typography--button"
+                       class="mdc-button mdc-typography--button mdc-theme--text-primary-on-light"
                        href="#">
                         CONTATO
                     </a>
@@ -95,12 +108,12 @@
         </header>
         <div class="fts-home__header">
             <div class="fts-home__header--bg fts-home__header--bg-industria">
-                <div class="mdc-layout-grid fts-home__header--gradient-left">
+                <div class="mdc-layout-grid fts-home__header--gradient">
                     <div class="mdc-layout-grid__inner">
                         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
-                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--align-middle">
-                            <h2 class="mdc-typography--headline2 mdc-theme--text-primary-on-dark">INDÚSTRIA</h2>
-                            <p class="mdc-typography--body1 mdc-theme--text-secondary-on-dark">Peças para reposição e manutenção de parques industriais em diversas áreas e finalidades.</p>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--align-middle fts-home__header--content">
+                            <h2 class="mdc-typography--headline2 mdc-theme--text-primary-on-dark">INDÚSTRIAS</h2>
+                            <p class="mdc-typography--body2 mdc-theme--text-secondary-on-dark">Fornecemos soluções e materiais sob medida a uma série de indústrias. Parcerias com grande indústrias no país viabilizaram fornecermos materiais de qualidade a preços sempre competitivos.</p>
                             <button class="mdc-button mdc-button--outlined">
                                 Saiba mais
                             </button>
@@ -109,12 +122,12 @@
                 </div>
             </div>
             <div class="fts-home__header--bg fts-home__header--bg-aviacao">
-                <div class="mdc-layout-grid fts-home__header--gradient-right">
+                <div class="mdc-layout-grid fts-home__header--gradient">
                     <div class="mdc-layout-grid__inner">
-                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-7"></div>
-                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--align-middle fts-home__header--content-right">
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--align-middle fts-home__header--content">
                             <h2 class="mdc-typography--headline2 mdc-theme--text-primary-on-dark">AVIAÇÃO</h2>
-                            <p class="mdc-typography--body1 mdc-theme--text-secondary-on-dark">Peças para reposição e manutenção de parques industriais em diversas áreas e finalidades.</p>
+                            <p class="mdc-typography--body2 mdc-theme--text-secondary-on-dark">Peças para reposição e manutenção de parques industriais em diversas áreas e finalidades.</p>
                             <button class="mdc-button mdc-button--outlined">
                                 Saiba mais
                             </button>
@@ -123,12 +136,174 @@
                 </div>
             </div>
         </div>
-        <div class="mdc-layout-grid content" style="height: 2000px; background-color: blue">
-            <div class="mdc-layout-grid__inner">
-                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-7">
+        <div class="mdc-layout-grid fts-content">
+            <div class="mdc-layout-grid__inner fts-home__empresa">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8">
+                    <h2 class="mdc-typography--headline2 mdc-theme--text-primary-on-light">A FTS BRASIL</h2>
+                    <h3 class="mdc-typography--headline5 mdc-theme--text-secondary-on-light">A FTS Brasil é uma empresa criada em 2017 para satisfazer a demanda por produtos e soluções do mercado de combustíveis.</h3>
+                    <ul class="mdc-image-list fts-home__empresa--imagens">
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-4-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-5-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-3-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-6-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-2-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-7-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-8-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-9-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-1-300.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="./_assets/img/home/remow_fts-home__empresa--galeria-10-300.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">Com atuação nos segmentos de <strong>distribuição de petróleo</strong> e seus derivados, <strong>indústrias</strong> e <strong>aviação</strong>, a FTS Brasil está estrategicamente instalada no Rio de Janeiro e deseja satisfazer a demanda crescente através de um gerenciamento eficiente e moderno, com relações baseadas em parcerias e a comercialização de produtos de qualidade por um preço justo.</p>
+                    <p class="mdc-typography--overline mdc-theme--secondary">Conheça nossos fornecedores.</p>
+                    <i class="fas fa-angle-down mdc-theme--secondary"></i>
                 </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+            </div>
+            <div class="mdc-layout-grid__inner fts-home__fornecedores">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+                    <h3 class="mdc-typography--headline4 mdc-theme--text-primary-on-dark">CONHEÇA ALGUMAS DAS MARCAS QUE COMPÕEM O CATÁLOGO DA FTS.</h3>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-dark">Trabalhamos com os melhores fornecedores. Reconhecidos, testados e aprovados pelo mercado ao longo de anos de trabalho.</p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-dark">Nossa filosofia preza pela parceria, construída lado a lado com nosso fornecedores e clientes. Essa estabilidade é fruto de atendimento, experiência e sobretudo, produtos confiáveis e de qualidade garantida.</p>
+                    <div class="mdc-card fts-home__fornecedores--card">
+                        <div class="mdc-card__media fts-home__fornecedores--card-sense"></div>
+                        <div class="fts-card__primary">
+                            <h4 class="mdc-typography--headline6 fts-card__title">Sense - Sensors & Instruments</h4>
+                            <h5 class="mdc-typography--subtitle2 fts-card__title mdc-theme--text-secondary-on-light">Reconhecida globalmente como fornecedora de soluções inovadoras para automação.</h5>
+                        </div>
+                        <div class="fts-card__secondary mdc-typography--body2 mdc-theme--text-secondary-on-light">Com 40 e poucos anos de atuação, a Sense Eletrônica está no mercado de automação industrial, oferecendo soluções em sensoriamento e conectividade, atuando nos segmentos de Automação de Processos e Manufatura.</div>
+                        <div class="mdc-card__actions">
+                            <div class="mdc-card__action-buttons">
+                                <a class="mdc-button mdc-card__action mdc-card__action--button mdc-typography--button">
+                                    <i aria-hidden="true"
+                                       class="mdc-button__icon fas fa-external-link-square-alt"></i>
+                                    Ver site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdc-card fts-home__fornecedores--card">
+                        <div class="mdc-card__media fts-home__fornecedores--card-cadval"></div>
+                        <div class="fts-card__primary">
+                            <h4 class="mdc-typography--headline6 fts-card__title">Cadval - Válvulas Industriais</h4>
+                            <h5 class="mdc-typography--subtitle2 fts-card__title mdc-theme--text-secondary-on-light">ISO 9001 | CRCC PETROBRAS</h5>
+                        </div>
+                        <div class="fts-card__secondary mdc-typography--body2 mdc-theme--text-secondary-on-light">Com 40 e poucos anos de atuação, a Sense Eletrônica está no mercado de automação industrial, oferecendo soluções em sensoriamento e conectividade, atuando nos segmentos de Automação de Processos e Manufatura.</div>
+                        <div class="mdc-card__actions">
+                            <div class="mdc-card__action-buttons">
+                                <a class="mdc-button mdc-card__action mdc-card__action--button mdc-typography--button">
+                                    <i aria-hidden="true"
+                                       class="mdc-button__icon fas fa-external-link-square-alt"></i>
+                                    Ver site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdc-card fts-home__fornecedores--card">
+                        <div class="mdc-card__media fts-home__fornecedores--card-wburger"></div>
+                        <div class="fts-card__primary">
+                            <h4 class="mdc-typography--headline6 fts-card__title">W.Burger</h4>
+                            <h5 class="mdc-typography--subtitle2 fts-card__title mdc-theme--text-secondary-on-light">Feita para auxiliar na sua procura pelo melhor produto.</h5>
+                        </div>
+                        <div class="fts-card__secondary mdc-typography--body2 mdc-theme--text-secondary-on-light">Empresa genuinamente nacional, tendo seu passado ligado a um dos pioneiros na fabricação de válvulas industriais. A W.Burger está certificada de acordo com a norma ISO 9001 e temos a satisfação de sermos qualificados nas maiores empresas petrolíferas, químicas e petroquímicas.</div>
+                        <div class="mdc-card__actions">
+                            <div class="mdc-card__action-buttons">
+                                <a class="mdc-button mdc-card__action mdc-card__action--button mdc-typography--button">
+                                    <i aria-hidden="true"
+                                       class="mdc-button__icon fas fa-external-link-square-alt"></i>
+                                    Ver site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
             </div>
         </div>
+        <footer class="mdc-layout-grid fts-footer">
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1">
+                    <img src="_assets/img/remo_fts-logo-branco.svg">
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                    <ul aria-orientation="vertical"
+                        class="mdc-list mdc-list--dense">
+                        <li class="mdc-list-item">
+                            <span class="mdc-list-item__text mdc-typography--button mdc-theme--text-secondary-on-dark">Início</span>
+                        </li>
+                        <li class="mdc-list-item">
+                            <span class="mdc-list-item__text mdc-typography--button mdc-theme--text-secondary-on-dark">Empresa</span>
+                        </li>
+                        <li class="mdc-list-item">
+                            <span class="mdc-list-item__text mdc-typography--button mdc-theme--text-secondary-on-dark">Fornecedores</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                    <ul aria-orientation="vertical"
+                        class="mdc-list mdc-list--dense">
+                        <li class="mdc-list-item">
+                            <span class="mdc-list-item__text mdc-typography--button mdc-theme--text-secondary-on-dark">Segmentos</span>
+                        </li>
+                        <li class="mdc-list-item">
+                            <span class="mdc-list-item__text mdc-typography--button mdc-theme--text-secondary-on-dark">Catálogo</span>
+                        </li>
+                        <li class="mdc-list-item">
+                            <span class="mdc-list-item__text mdc-typography--button mdc-theme--text-secondary-on-dark">Contato</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
         
         <!-- JS -->
         <!-- jQuery -->
@@ -139,6 +314,9 @@
         <!-- MaterialComponents -->
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <script type="text/javascript">window.mdc.autoInit();</script>
+        <script src="_assets/js/mdc.js"
+                type="text/javascript">
+        </script>
         
         <!-- Slick -->
         <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"

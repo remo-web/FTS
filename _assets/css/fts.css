@@ -1,0 +1,9 @@
+#fts-menu{color: --mdc-theme-on-surface}
+
+.fts-card__primary{padding: 1rem}
+.fts-card__secondary{padding: 0 1rem 8px}
+.fts-card__title{margin: 0}
+
+/* FOOTER */
+.fts-footer{background-color: rgba(0,0,0,0.87)}
+.fts-footer img{margin-top: 4px; opacity: 0.4}

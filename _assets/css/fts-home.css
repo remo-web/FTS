@@ -1,3 +1,21 @@
+/* LOGO */
+.fts-logo{
+    position: fixed; top: 8px; left: 0px;
+    height: auto; max-height: 8vw;
+    z-index: 9999;
+    background-color: #FFFFFF;
+    border-top-right-radius: 3px; border-bottom-right-radius: 3px;
+    transition: all 0.25s ease;
+}
+.fts-logo--position{top: 74px;}
+
+.fts-logo img{width: 8vw; height: auto}
+
+.fts-logo--links{margin-left: 4px}
+.fts-logo--links .mdc-fab{background-color: #FFFFFF}
+
+
+/* HEADER */
 .fts-home__header{
     width: 100%; height: 100vh;
 }
@@ -9,12 +27,12 @@
     width: 100%; height: 100vh; background-size: cover;
 }
 
-.fts-home__header--bg-industria{background-image: url(../img/remow_fts-home__header--bgIndustria-4096x2160.jpg);}
+.fts-home__header--bg-industria{background-image: url(../img/home/remow_fts-home__header--bgIndustria-4096x2160.jpg);}
 
-.fts-home__header--bg-aviacao{background-image: url(../img/remow_fts-home__header--bgAviacao-4096x2160.jpg);}
+.fts-home__header--bg-aviacao{background-image: url(../img/home/remow_fts-home__header--bgAviacao-4096x2160.jpg);}
 
-.fts-home__header--gradient-left{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0));
+.fts-home__header--gradient{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0));
     background-size: 60%;
     background-repeat: no-repeat;
 }
@@ -26,7 +44,12 @@
     background-position: right;
 }
 
-.fts-home__header--content-left{text-align: left}
+.fts-home__header--content{padding-bottom: 64px}
+.fts-home__header--content p{
+    border-left: solid 6px #FFFFFF;
+    padding: 6px 6px 6px 12px;
+    background-color: rgba(0,0,0,0.6);
+}
 .fts-home__header--content-right{text-align: right}
 
 .fts-home__header .mdc-button--outlined{color: white; border-color: white}
@@ -37,6 +60,40 @@
     height: 64px;
 }
 
-.fts-sticky + .content {
+.fts-sticky + .fts-content {
   padding-top: calc(100% - 64px);
 }
+
+/* EMPRESA */
+.fts-home__empresa{
+    text-align: center;
+    padding: 12vh 0 3vh 0;
+}
+.fts-home__empresa--imagens{
+    @include mdc-image-list-standard-columns(10);
+    max-width: 100%;
+}
+.fts-home__empresa--imagens .mdc-image-list__item{width: calc(100% / 10 - 4.2px); margin: 2px}
+
+.fts-home__empresa .mdc-typography--overline{margin: 12vh 0 0 0}
+
+/* FORNECEDORES */
+.fts-home__fornecedores{
+    background-image: url(../img/remow_fts-home__fornecedor--bg-4096x2160.jpg);
+    background-size: cover;
+    margin: 0 -24px -24px -24px;
+    padding: 12vh 0;
+    box-shadow: inset 0px 2px 4px -1px rgba(0,0,0,0.2), inset 0px 4px 5px 0px rgba(0,0,0,0.14), inset 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.mdc-card{margin-bottom: 1rem}
+
+.mdc-card__media{
+    height: 6vh;
+    margin: 1rem 1rem 0 1rem;
+    background-size: contain; background-position: left;
+}
+
+.fts-home__fornecedores--card-sense{background-image: url(../img/home/fornecedores/sense.png);}
+.fts-home__fornecedores--card-cadval{background-image: url(../img/home/fornecedores/cadval.png);}
+.fts-home__fornecedores--card-wburger{background-image: url(../img/home/fornecedores/wburger.png);}
