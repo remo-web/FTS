@@ -1,0 +1,1 @@
+a:2:{s:5:"pages";a:4:{i:0;s:14:"segmentos.html";i:1;s:10:"index.html";i:2;s:12:"contato.html";i:3;s:14:"a-empresa.html";}s:9:"protected";a:4:{s:4:"Home";b:0;s:9:"A EMPRESA";b:0;s:9:"SEGMENTOS";b:0;s:7:"CONTATO";b:0;}}
