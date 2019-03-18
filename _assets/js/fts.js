@@ -4,8 +4,8 @@ function fts(){
         dots: true,
         arrows: true,
 //        fade: true,
-        autoplay: false,
-        autoplaySpeed: 10000,
+        autoplay: true,
+        autoplaySpeed: 5000,
     });
     $('.fts-home__clientes--depoimento').slick({
         adaptiveHeight: true,

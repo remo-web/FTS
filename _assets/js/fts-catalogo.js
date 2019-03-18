@@ -1,6 +1,26 @@
 // Desabilita click com botão direito
 document.addEventListener('contextmenu', event => event.preventDefault());
 
+//Filtra os segmentos
+$("#prodDis").click( function(){
+    $("#Aviacao").addClass("fts-hide");
+    $("#Industria").addClass("fts-hide");
+    $("#Distribuidoras").removeClass("fts-hide");
+    $("#Distribuidoras").css({'padding-top':'64px'});
+});
+$("#prodInd").click( function(){
+    $("#Aviacao").addClass("fts-hide");
+    $("#Distribuidoras").addClass("fts-hide");
+    $("#Industria").removeClass("fts-hide");
+    $("#Industria").css({'padding-top':'64px'});
+});
+$("#prodAvi").click( function(){
+    $("#Distribuidoras").addClass("fts-hide");
+    $("#Industria").addClass("fts-hide");
+    $("#Aviacao").removeClass("fts-hide");
+    $("#Aviacao").css({'padding-top':'64px'});
+});
+
 // DISTRIBUIDORAS
 function dist10000(){
     $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/10000.html');
