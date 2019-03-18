@@ -25,5 +25,6 @@ function includeHTML() {
         }
     }
     fts();
+    ftsHead();
     ftsMDC();
 }
