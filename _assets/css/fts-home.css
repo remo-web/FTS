@@ -72,7 +72,7 @@
 .fts-header__home .slick-prev{left: 25px; z-index: 999;}
 .fts-header__home .slick-prev:before{content: "<";}
 
-.slick-dots{display: none;}
+.slick-dots{visibility: hidden;}
 
 /* EMPRESA */
 .fts-home__empresa{
