@@ -3,6 +3,8 @@
 .fts-home__header--bg-distribuidoras{background-image: url(../img/home/remow_fts-home__header--bgDistribuidoras-4096x2160.jpg);}
 .fts-home__header--bg-industria{background-image: url(../img/home/remow_fts-home__header--bgIndustria-4096x2160.jpg);}
 .fts-home__header--bg-aviacao{background-image: url(../img/home/remow_fts-home__header--bgAviacao-4096x2160.jpg);}
+.fts-home__header--bg-incendio{background-image: url(../img/home/remow_fts-home__header--bgIncendio-4096x2160.jpg);}
+.fts-home__header--bg-bicos{background-image: url(../img/home/remow_fts-home__header--bgBicos-4096x2160.jpg);}
 
 .fts-home__header-33{
     width: 100%; height: calc(33.3vh - 21px) !important;
@@ -33,6 +35,8 @@
     background-position: right;
     margin: calc(var(--mdc-layout-grid-gutter-desktop, 24px) * -1);
 }
+
+.fts-home__neutral--bg{background-color: grey;}
 
 .fts-header__home .fts-header--content h1{
     padding: .5rem 1rem;
@@ -67,6 +71,8 @@
 .fts-header__home .slick-next:before{content: ">";}
 .fts-header__home .slick-prev{left: 25px; z-index: 999;}
 .fts-header__home .slick-prev:before{content: "<";}
+
+.slick-dots{display: none;}
 
 /* EMPRESA */
 .fts-home__empresa{
@@ -124,7 +130,11 @@
 .fts-home__clientes--depoimento p:before{content: open-quote;}
 .fts-home__clientes--depoimento p:after{content: close-quote;}
 
-.fts-home__clientes--depoimento img{border-radius: 50%; height: 45px; margin: auto;}
+.fts-home__clientes--depoimento img{
+/*    border-radius: 50%;*/
+    height: 45px;
+    margin: auto;
+}
 .fts-home__clientes--depoimento h2{margin-bottom: 0}
 .fts-home__clientes--depoimento h3{margin-top: 0}
 

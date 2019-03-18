@@ -1,10 +1,10 @@
 function fts(){
     $('.fts-header__home').slick({
         adaptiveHeight: true,
-        dots: false,
+        dots: true,
         arrows: true,
 //        fade: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 10000,
     });
     $('.fts-home__clientes--depoimento').slick({

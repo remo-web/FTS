@@ -11,17 +11,12 @@
     /* -- FTS -- */
     .fts-logo img {width: 25vw !important; height: auto;}
     
-    /* HOME | header */
-    .fts-home__header--gradient {
-        background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0)) !important;
-        background-size: 60%;
-        background-repeat: repeat !important;
-    }
-    
+    /* HOME | header */    
     .fts-header__home .fts-header--content p{margin-top: .18rem;}
     
     /* MENU */
     .mdc-top-app-bar .mdc-button{font-size: 2.8vw;}
+    .fts-menu__icon a img{height: 18px;}
     
     /* HOME | clientes */
     .fts-home__clientes--logo img{

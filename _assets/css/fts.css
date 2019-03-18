@@ -74,13 +74,9 @@
     height: 64px;
 }
 
-.fts-sticky + .fts-content {
-  padding-top: calc(100% - 64px);
-}
-
-.fts-menu__icon{
-    transition: all .75s ease;
-}
+.fts-sticky + .fts-content {padding-top: calc(100% - 64px);}
+.fts-menu__icon{transition: all .75s ease;}
+.fts-menu__icon a img{height: 25px;}
 
 /* HEADER */
 .fts-header{width: 100%; height: 100vh;}
