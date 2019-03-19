@@ -32,6 +32,12 @@
     margin: calc(var(--mdc-layout-grid-gutter-desktop, 24px) * -1);
 }
 
+.fts-home__header--bg-distribuidoras h1, 
+.fts-home__header--bg-distribuidoras p{
+    display: block !important;
+    float: right !important;
+}
+
 .fts-home__header--gradient{
     background-image: linear-gradient(to left, rgba(0,0,0,0.8), rgba(0,0,0,0));
     background-size: 60%;
