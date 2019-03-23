@@ -54,13 +54,13 @@
 
 .fts-logo--position{top: calc(64px - (8vh + 8px));}
 .fts-logo__wrapper{
-    border-radius: 20px;
+    border-radius: 16px;
     background-color: #FFFFFF;
-    padding: 1.1rem 1.1rem;
+    padding: 1.15rem 1.15rem;
     margin-bottom: 14px; margin-left: 4px;
 }
 .fts-logo img{
-    width: auto; height: 7vh;
+    width: auto; height: 6.5vh;
 }
 
 .fts-logo--links{margin-left: 4px; display: list-item;}
