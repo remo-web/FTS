@@ -18,6 +18,9 @@
     background-color: rgba(0,0,0,0.2);
     transition: all 1s ease;
 }
+.fts-home__header-33 p.fts-distribuidoras--bg{background-color: rgba(114, 191, 68, 0.7);}
+.fts-home__header-33 p.fts-industria--bg{background-color: rgba(236, 35, 38, 0.7);}
+.fts-home__header-33 p.fts-aviacao--bg{background-color: rgba(19, 111, 183, 0.7);}
 .fts-home__header-33 .fts-home__header--gradient-33{margin: 0;}
 .fts-home__header-33 .fts-header--content{
     padding-bottom: 0;
@@ -47,6 +50,7 @@
 }
 
 .fts-home__neutral--bg{background-color: grey;}
+p.fts-home__neutral--bg{background-color: rgba(128, 128, 128, 0.7);}
 
 .fts-header__home .fts-header--content h1{
     padding: .5rem 1rem;
@@ -58,7 +62,6 @@
 .fts-header__home .fts-header--content p{
     margin-top: 0;
     padding: 1rem 1rem;
-    opacity: 0.7;
 }
 .fts-home__header--content-right{text-align: right}
 .fts-header .mdc-button{color: #FFFFFF;}
@@ -186,7 +189,7 @@
 }
 
 .fts-home__fornecedores .mdc-card__media{
-    height: 6vh;
+    height: 4vh;
     margin: 1rem 1rem 0 1rem;
     background-size: contain; background-position: left;
 }
@@ -208,3 +211,5 @@
     .fts-home__fornecedores--card-sfinternational{background-image: url(../img/home/fornecedores/sfinternational.png);}
     .fts-home__fornecedores--card-stbrasil{background-image: url(../img/home/fornecedores/stbrasil.png);}
     .fts-home__fornecedores--card-werkschott{background-image: url(../img/home/fornecedores/werkschott.png);}
+    .fts-home__fornecedores--card-merck{background-image: url(../img/home/fornecedores/merck.png);}
+    .fts-home__fornecedores--card-opw{background-image: url(../img/home/fornecedores/opw.png);}
