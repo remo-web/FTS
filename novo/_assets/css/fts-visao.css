@@ -1,0 +1,20 @@
+.fts-header__visao{
+    background-image: url(../img/visao/remow_fts-visao__header--bg-4096x2160.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fts-visao > .mdc-layout-grid__inner:first-child{margin-top: 10vh;}
+.fts-visao > .mdc-layout-grid__inner:nth-child(2){margin-bottom: 10vh;}
+
+.fts-visao__sgq{
+    padding: 0 1rem;
+    background-color: rgba(0,0,0,0.12);
+}
+
+hr{width: 8vw}
+.fts-visao__sgq hr{border-image: linear-gradient(to right, #72BF44 33.33%, #EC2326 33.33%, #EC2326 66.66%, #136FB7 66.66%, #136FB7 100%) 3;}
+.fts-visao__missao hr{border-color: var(--mdc-theme-third, #72bf44);}
+.fts-visao__visao hr{border-color: var(--mdc-theme-secondary, #ec2326);}
+.fts-visao__valores hr{border-color: var(--mdc-theme-primary, #136fb7);}
