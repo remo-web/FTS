@@ -45,7 +45,8 @@
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: right;
-    margin: calc(var(--mdc-layout-grid-gutter-desktop, 24px) * -1);
+    margin-top: var(--mdc-layout-grid-gutter-desktop, 24px);
+    margin-right: calc(var(--mdc-layout-grid-gutter-desktop, 24px) * -1);
 }
 
 .fts-home__neutral--bg{background-color: grey;}

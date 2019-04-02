@@ -5,7 +5,7 @@ function fts(){
         arrows: true,
 //        fade: true,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 8000,
     });
     $('.fts-home__clientes--depoimento').slick({
         adaptiveHeight: true,
@@ -23,15 +23,23 @@ function fts(){
     var sticky = header.offsetTop;
     function stickyBar() {
         if (window.pageYOffset >= sticky) {
-            header.classList.add("fts-sticky");
-            logo.classList.add("fts-logo--position");
-            ologo.classList.add("fts-hide");
-            icon.classList.remove("fts-hide");
+            header.classList.add("");
+//            fts-sticky
+            logo.classList.add("");
+//            fts-logo--position
+            ologo.classList.add("");
+//            fts-hide
+            icon.classList.remove("");
+//            fts-hide
         } else {
-            header.classList.remove("fts-sticky");
-            logo.classList.remove("fts-logo--position");
-            ologo.classList.remove("fts-hide");
-            icon.classList.add("fts-hide");
+            header.classList.remove("");
+//            fts-sticky
+            logo.classList.remove("");
+//            fts-logo--position
+            ologo.classList.remove("");
+//            fts-hide
+            icon.classList.add("");
+//            fts-hide
         }
     }
     
