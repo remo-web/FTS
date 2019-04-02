@@ -28,7 +28,10 @@
                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--align-middle fts-header--content fts-center">
                         <h2 class="mdc-typography--headline2 mdc-theme--text-primary-on-dark">CATÁLOGO DE PRODUTOS</h2>
-                        <p class="mdc-typography--body2 mdc-theme--text-secondary-on-dark">Acesse toda a <strong>seleção de produtos a disposição</strong> da sua empresa através da FTS de acordo com cada segmento.</p>
+                        <p class="mdc-typography--body2 mdc-theme--text-secondary-on-dark">Acesse toda a <strong>seleção de produtos a disposição</strong> da sua empresa através da FTS de acordo com cada segmento.
+                            <br/>
+                            <span class="mdc-typography--overline mdc-theme--text-hint-on-dark">(em construção)</span>
+                        </p>
                         <div class="mdc-layout-grid__inner fts-catalogo--opcoes fts-center">
                             <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                                 <a class="mdc-typography--button mdc-fab mdc-fab--extended"
@@ -81,8 +84,25 @@
                 </div>
             </div>
         </div>
+        <!-- CONTEÚDO TEMPORÁRIO -->
+        <div class="mdc-layout-grid fts-catalogo fts-content">
+            <div class="mdc-layout-grid__inner" style="background-color: rgba(0,0,0,0.12);">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 fts-center" style="padding-bottom: 10vh;">
+                    <h5 class="mdc-typography--headline2"><mark>EM BREVE!</mark></h5>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light"><mark>Dentro de alguns dias concluiremos a preparação do nosso catálogo virtual de produtos e você poderá navegar de maneira mais clara, fácil e prática por toda a nossa conhecida seleção de suprimentos, peças e materiais.</mark></p>
+                    <p class="mdc-typography--body1"><mark>Enquanto isso, escolha uma das formas de contato a seguir e converse com a nossa equipe de relacionamento.</mark></p>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+            </div>
+            <!-- CONTATO -->
+            <div class="mdc-layout-grid__inner fts-contato"
+                 id="Contato"
+                 w3-include-html="../_assets/html/contato.html">
+            </div>
+        </div>
         <!-- CONTEÚDO -->
-        <div class="mdc-layout-grid fts-catalogo fts-content"
+        <div class="mdc-layout-grid fts-catalogo fts-content fts-hide fts-hide-mobile"
              oncopy='return false'
              oncut='return false'
              onselectstart='return false'>
