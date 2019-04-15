@@ -18,8 +18,14 @@
     /* MENU */
     .mdc-top-app-bar .mdc-button{font-size: 2.8vw;}
     .fts-menu__icon a img{height: 18px;}
+    .fts-logo--position{margin-top: 0;}
     
     /* HOME | header */
+    .fts-header{width: 100%; height: calc(100vh - 64px); margin-top: 64px;}
+    .fts-header.fts-header__home .mdc-layout-grid{height: 100vh;} 
+    .fts-header .mdc-layout-grid{height: calc(100vh - 64px);} 
+    .fts-header .mdc-layout-grid__cell{margin: calc(var(--mdc-layout-grid-gutter-phone, 16px) / 2);}
+    .fts-header--bg{height: calc(100vh - 64px);}
     .fts-home__header-33{
         width: 100%; height: calc(33.3vh - 21px) !important;
         background-color: gray; background-size: cover; background-position: center; background-blend-mode: soft-light;
@@ -42,7 +48,7 @@
         margin: calc(var(--mdc-layout-grid-gutter-desktop, 24px) * -1);
     }
     
-    .fts-header__home .fts-header--content p{margin-top: .18rem;}    
+/*    .fts-header__home .fts-header--content p{margin-top: .18rem;}    */
     .fts-home__header--gradient {
         background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0)) !important;
         background-size: 60%;

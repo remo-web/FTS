@@ -13,7 +13,7 @@
 .fts-segmentos__header--bg-aviacao,
 .fts-segmentos__header--bg-distribuidoras{
     display: table-cell;
-    width: 33vw; height: 100vh;
+    width: calc(100vw / 3); height: 100vh;
     background-position: center;
     background-size: cover;
 }

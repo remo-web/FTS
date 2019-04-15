@@ -71,6 +71,7 @@ p.fts-home__neutral--bg{background-color: rgba(128, 128, 128, 0.7);}
 .slick-dots{bottom: 84px;}
 .slick-dots li button:before,
 .slick-dots li.slick-active button:before{color: #FFFFFF;}
+.slick-dotted.slick-slider{margin-bottom: 0;}
 .fts-header__home .slick-next,
 .fts-header__home .slick-prev{
     height: 40px;

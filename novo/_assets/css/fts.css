@@ -81,10 +81,10 @@
 .fts-menu__icon a img{height: 25px;}
 
 /* HEADER */
-.fts-header{width: 100%; height: 100vh; margin-top: 64px;}
+.fts-header{width: 100%; height: 100vh;}
 
 .fts-header .mdc-layout-grid, 
-.fts-header .mdc-layout-grid__inner{height: 100%}
+.fts-header .mdc-layout-grid__inner{height: 100%;}
 .fts-header--bg{
     width: 100%; height: 100vh; 
     background-size: cover; background-position: center;
