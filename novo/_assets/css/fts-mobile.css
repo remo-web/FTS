@@ -76,6 +76,13 @@
         margin: var(--mdc-layout-grid-margin-phone, 16px);
     }
     
+    /* PRODUTOS */
+    .fts-catalogo .mdc-button{
+        height: auto;
+        line-height: 1.25rem;
+        padding: 0.5rem 16px;
+    }
+    
     /* FOOTER */
     .fts-footer img{width: 25vw !important;}
 }
