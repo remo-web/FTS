@@ -11,6 +11,8 @@
     .mdc-typography--headline2{font-size: 12vw;}
     .fts-home__empresa--imagens .mdc-image-list__item{width: calc(100% / 5 - 4.2px) !important;}
     .mdc-top-app-bar__row{height: 64px;}
+    /* topbar */
+    .mdc-top-app-bar{width: 100vw;}
     
     /* -- FTS -- */
     .fts-logo img {width: 25vw !important; height: auto;}
@@ -20,11 +22,15 @@
     .fts-menu__icon a img{height: 18px;}
     .fts-logo--position{margin-top: 0;}
     
+    /* HEADER */
+    .fts-header h2{margin-block-start: 0.2em;}
+    
     /* HOME | header */
     .fts-header{width: 100%; height: calc(100vh - 64px); margin-top: 64px;}
     .fts-header.fts-header__home .mdc-layout-grid{height: 100vh;} 
     .fts-header .mdc-layout-grid{height: calc(100vh - 64px);} 
-    .fts-header .mdc-layout-grid__cell{margin: calc(var(--mdc-layout-grid-gutter-phone, 16px) / 2);}
+    .fts-header .mdc-layout-grid__cell{margin: 0;}
+/*    .fts-header .mdc-layout-grid__cell{margin: calc(var(--mdc-layout-grid-gutter-phone, 16px) / 2);}*/
     .fts-header--bg{height: calc(100vh - 64px);}
     .fts-home__header-33{
         width: 100%; height: calc(33.3vh - 21px) !important;
@@ -81,6 +87,11 @@
         height: auto;
         line-height: 1.25rem;
         padding: 0.5rem 16px;
+    }
+    
+    /* SEGMENTOS */
+    .fts-segmentos .fts-content{
+        text-align: left;
     }
     
     /* FOOTER */
