@@ -38,7 +38,7 @@ function dist80000(){
     $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/80000di.html');
 }
 function dist90000(){
-    $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/90000.html');
+    $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/90000di.html');
 }
 function dist110000(){
     $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/110000.html');
@@ -67,7 +67,7 @@ function indu80000(){
     $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/80000di.html');
 }
 function indu90000(){
-    $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/90000.html');
+    $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/90000di.html');
 }
 function indu110000(){
     $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/110000.html');
@@ -105,7 +105,7 @@ function avia80000(){
     $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/80000a.html');
 }
 function avia90000(){
-    $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/90000.html');
+    $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/90000a.html');
 }
 function avia100000(){
     $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/100000.html');
