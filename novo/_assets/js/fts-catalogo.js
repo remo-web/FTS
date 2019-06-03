@@ -40,6 +40,9 @@ function dist80000(){
 function dist90000(){
     $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/90000di.html');
 }
+function dist100000(){
+    $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/100000.html');
+}
 function dist110000(){
     $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/110000.html');
 }
@@ -68,6 +71,9 @@ function indu80000(){
 }
 function indu90000(){
     $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/90000di.html');
+}
+function indu100000(){
+    $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/100000.html');
 }
 function indu110000(){
     $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/110000.html');
