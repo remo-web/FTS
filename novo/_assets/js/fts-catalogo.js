@@ -67,6 +67,9 @@ function dist170000(){
 function dist180000(){
     $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/180000.html');
 }
+function dist200000(){
+    $("#distFilter").attr('w3-include-html','../_assets/html/catalogo/200000.html');
+}
 
 //INDUSTRIAS
 function indu10000(){
@@ -113,6 +116,9 @@ function indu170000(){
 }
 function indu180000(){
     $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/180000.html');
+}
+function indu200000(){
+    $("#induFilter").attr('w3-include-html','../_assets/html/catalogo/200000.html');
 }
 
 //AVIACAO
@@ -169,4 +175,7 @@ function avia180000(){
 }
 function avia190000(){
     $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/190000.html');
+}
+function avia200000(){
+    $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/200000.html');
 }
