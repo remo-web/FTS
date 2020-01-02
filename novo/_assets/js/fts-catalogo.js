@@ -200,6 +200,9 @@ function avia110000(){
 function avia120000(){
     $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/120000a.html');
 }
+function avia130000(){
+    $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/130000a.html');
+}
 function avia140000(){
     $("#aviaFilter").attr('w3-include-html','../_assets/html/catalogo/140000a.html');
 }
