@@ -1,3 +1,7 @@
+.fts-segmentos .fts-content h2{
+    padding-top: 64px;
+}
+
 .fts-segmentos__header--bg{
     position: absolute;
     top: 0; left: 0;
