@@ -26,6 +26,10 @@
     margin-right: var(--mdc-layout-grid-gutter-desktop, 24px);
 }
 
+.fts-header--content *{
+    float: right;
+}
+
 .fts-home__header--gradient-33{
     background-image: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0));
     background-size: 30% 100%;

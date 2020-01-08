@@ -23,22 +23,22 @@ function fts(){
     var sticky = header.offsetTop;
     function stickyBar() {
         if (window.pageYOffset >= sticky) {
-            header.classList.add("");
+            header.classList.add(".");
 //            fts-sticky
-            logo.classList.add("");
+            logo.classList.add(".");
 //            fts-logo--position
-            ologo.classList.add("");
+            ologo.classList.add(".");
 //            fts-hide
-            icon.classList.remove("");
+            icon.classList.remove(".");
 //            fts-hide
         } else {
-            header.classList.remove("");
+            header.classList.remove(".");
 //            fts-sticky
-            logo.classList.remove("");
+            logo.classList.remove(".");
 //            fts-logo--position
-            ologo.classList.remove("");
+            ologo.classList.remove(".");
 //            fts-hide
-            icon.classList.add("");
+            icon.classList.add(".");
 //            fts-hide
         }
     }
