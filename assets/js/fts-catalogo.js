@@ -26,13 +26,13 @@ function dist10000(){
     $("#distFilter").attr('w3-include-html','../assets/html/catalogo/10000.html');
 }
 function dist30000(){
-    $("#distFilter").attr('w3-include-html','../assets/html/catalogo/30000.html');
+    $("#distFilter").attr('w3-include-html','../assets/html/catalogo/30000di.html');
 }
 function dist40000(){
     $("#distFilter").attr('w3-include-html','../assets/html/catalogo/40000.html');
 }
 function dist50000(){
-    $("#distFilter").attr('w3-include-html','../assets/html/catalogo/50000.html');
+    $("#distFilter").attr('w3-include-html','../assets/html/catalogo/50000da.html');
 }
 function dist80000(){
     $("#distFilter").attr('w3-include-html','../assets/html/catalogo/80000di.html');
@@ -97,13 +97,13 @@ function indu10000(){
     $("#induFilter").attr('w3-include-html','../assets/html/catalogo/10000.html');
 }
 function indu30000(){
-    $("#induFilter").attr('w3-include-html','../assets/html/catalogo/30000.html');
+    $("#induFilter").attr('w3-include-html','../assets/html/catalogo/30000di.html');
 }
 function indu40000(){
     $("#induFilter").attr('w3-include-html','../assets/html/catalogo/40000.html');
 }
 function indu50000(){
-    $("#induFilter").attr('w3-include-html','../assets/html/catalogo/50000.html');
+    $("#induFilter").attr('w3-include-html','../assets/html/catalogo/50000i.html');
 }
 function indu80000(){
     $("#induFilter").attr('w3-include-html','../assets/html/catalogo/80000di.html');
@@ -171,13 +171,13 @@ function avia20000(){
     $("#aviaFilter").attr('w3-include-html','../assets/html/catalogo/20000.html');
 }
 function avia30000(){
-    $("#aviaFilter").attr('w3-include-html','../assets/html/catalogo/30000.html');
+    $("#aviaFilter").attr('w3-include-html','../assets/html/catalogo/30000a.html');
 }
 function avia40000(){
     $("#aviaFilter").attr('w3-include-html','../assets/html/catalogo/40000.html');
 }
 function avia50000(){
-    $("#aviaFilter").attr('w3-include-html','../assets/html/catalogo/50000.html');
+    $("#aviaFilter").attr('w3-include-html','../assets/html/catalogo/50000a.html');
 }
 function avia60000(){
     $("#aviaFilter").attr('w3-include-html','../assets/html/catalogo/60000.html');
